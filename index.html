@@ -3,81 +3,101 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Моя игра</title>
+<title>blandq-zakas</title>
 
 <style>
-
 body{
-margin:0;
-font-family:Arial;
-background:black;
-color:white;
-text-align:center;
+  margin:0;
+  font-family:Arial, sans-serif;
+  background:black; /* полностью черный фон */
+  color:white;
+  text-align:center;
+}
+
+.header{
+  position:fixed;
+  top:0;
+  width:100%;
+  padding:15px;
+  font-size:22px;
+  font-weight:bold;
+  color:#2da1ff; /* синий */
+  background:black;
 }
 
 .hero{
-height:100vh;
-background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.9)),
-url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e");
-background-size:cover;
-background-position:center;
-display:flex;
-flex-direction:column;
-justify-content:center;
-align-items:center;
-padding:20px;
+  min-height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  padding:20px;
 }
 
 h1{
-font-size:40px;
-margin:10px 0;
+  color:red;
+  font-size:36px;
+  margin-bottom:20px;
 }
 
 p{
-max-width:500px;
-font-size:18px;
-color:#ddd;
-}
-
-.btn{
-margin-top:30px;
-padding:15px 40px;
-font-size:18px;
-border:none;
-border-radius:40px;
-background:orange;
-color:white;
-cursor:pointer;
-box-shadow:0 0 20px orange;
-}
-
-.btn:hover{
-background:#ff9500;
+  max-width:500px;
+  font-size:18px;
+  color:#ddd;
+  line-height:1.5;
 }
 
 .features{
-margin-top:20px;
-color:#bbb;
+  margin-top:20px;
+  font-size:18px;
+  color:#ddd;
 }
 
-</style>
-</head>
+a.btn{
+  display:inline-block;
+  margin-top:30px;
+  padding:15px 40px;
+  font-size:18px;
+  border:none;
+  border-radius:40px;
+  background:orange;
+  color:white;
+  text-decoration:none;
+  box-shadow:0 0 20px orange;
+  transition:0.3s;
+}
 
+a.btn:hover{
+  background:#ff9500;
+  box-shadow:0 0 30px orange;
+}
+</style>
+
+</head>
 <body>
+
+<div class="header">
+blandq-zakas®
+</div>
 
 <div class="hero">
 
-<h1>Россия в твоем телефоне</h1>
+<h1>Форум в твоём телефоне!</h1>
 
 <p>
-Стабильные сервера, уникальные системы и большое сообщество игроков.
-Скачай игру и начни играть прямо сейчас!
+стабильны Форум, активны форум, 24/7 работающий только заказать у blandq!
 </p>
 
 <div class="features">
-<p>🟢 Сотни игроков онлайн</p>
-<p>🟠 Регулярные обновления</p>
-<p>🔵 Активное сообщество</p>
+<p>🔱 24/7 Работающий</p>
+<p>📒 Много способны</p>
+<p>🚀 Быстрый</p>
+<p>🌀 Xenforo-web</p>
 </div>
 
-<button class="btn">Скачать лаунчер</button
+<a href="https://t.me/blandqinfo" class="btn">Заказать форум</a>
+
+</div>
+
+</body>
+</html>
